@@ -69,7 +69,6 @@ GEM
     compass-rails (1.1.7)
       compass (>= 0.12.2)
       sprockets (<= 2.11.0)
-    concurrent-ruby (1.0.0)
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.6.0)
