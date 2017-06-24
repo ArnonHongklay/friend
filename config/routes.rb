@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root 'welcome#index', defaults: { format: :json }
+  root 'welcome#index'
+
+  # get '', , defaults: { format: :json }
 end
