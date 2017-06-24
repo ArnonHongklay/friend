@@ -1,16 +1,18 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
+ruby '2.4.1'
 
-gem 'rails', '4.2.5'
+gem 'rails', github: 'rails/rails'
+gem 'listen'
+
 gem 'activerecord-session_store'
 
 gem 'turbolinks'
 gem 'jquery-rails'
-gem 'jbuilder', '~> 2.0'
-gem 'compass-rails', '~> 1.1'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'jbuilder'
+gem 'compass-rails'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 gem 'materialize-sass'
 
 group :development, :test do
